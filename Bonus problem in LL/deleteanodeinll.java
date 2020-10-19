@@ -7,9 +7,7 @@ class LinkedListNode<T> {
 	
 	public LinkedListNode(T data) {
 		this.data = data;
-		this.next = null;
-	}
-}*/
+		this.next =
 
 public class Solution {
 
