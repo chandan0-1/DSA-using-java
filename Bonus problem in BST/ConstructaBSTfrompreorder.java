@@ -20,7 +20,5 @@ public class Solution {
             helper(node,preorder[i]);
         }
         return node;
-
-
     }
 }
