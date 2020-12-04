@@ -1,6 +1,5 @@
 	
 public class Solution {
-
     public static int helper(String s, String t,int i,int j) {
         if(i==s.length() ){
             return t.length()- j;
