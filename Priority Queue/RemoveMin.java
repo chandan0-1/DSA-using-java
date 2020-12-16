@@ -80,7 +80,6 @@ public class PQ {
 
         }
 }
-
 class PriorityQueueException extends Exception {
 
 }
