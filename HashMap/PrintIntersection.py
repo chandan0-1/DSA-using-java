@@ -3,7 +3,6 @@ from collections import OrderedDict
 
 def intersection(arr1, arr2, n, m) :
     arr1.sort()
-	#Your code goes here
     d1=OrderedDict()
     d2={}
     for i in arr1:
@@ -14,14 +13,10 @@ def intersection(arr1, arr2, n, m) :
         
     for i in d1:
         if i in d1 and i in d2:
-            # print(d1,min(d1[i],d2[i]))
-            # print(d2)
-            # break
             for _ in range(min(d1[i],d2[i])):
                 print(i,end=" ")
     print()
         
-
 
 # Taking input using fast I/O method
 def takeInput() :
