@@ -31,13 +31,7 @@ public class Solution {
         }
 		int l=len(head);
         l=l/2;
-        // if (l%2==0){
-        //     l=l/2;
-        // }
-        // else{
-        //     l=l/2;
-        //     // l--;
-        // }
+
         LinkedListNode<Integer>  cur=head;
         LinkedListNode<Integer> prev=null;
         while(l>0){
