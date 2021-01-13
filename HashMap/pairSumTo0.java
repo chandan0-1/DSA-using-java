@@ -6,7 +6,6 @@ public class Solution {
         HashMap<Integer,Integer> d=new HashMap<>();
         int count  = 0;
 
-
         for(Integer i:input){
             d.put(i,d.getOrDefault(i,0)+1);
         }
@@ -17,7 +16,6 @@ public class Solution {
             }
             if (i>0 && d.containsKey(-i)){
                 count+= d.get(i)*d.get(-i);
-
             }
         }
         return count;
