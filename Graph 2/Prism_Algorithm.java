@@ -81,7 +81,5 @@ public class Solution {
             adj[v2][v1] = wt;
         }
         prism(adj,V);
-
-
     }
 }
