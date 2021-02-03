@@ -75,6 +75,5 @@ public class Solution {
                 System.out.println(b+" "+a+" "+mst[i].wt);
             }
         }
-
     }
 }
