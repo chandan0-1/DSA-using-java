@@ -1,4 +1,3 @@
-
 def fun(n,arr):
     s = sum(arr)
     c = 0
