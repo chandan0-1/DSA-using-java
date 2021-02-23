@@ -7,3 +7,5 @@ for j in l:
     for i in range(m):
         print(*j)
     m-=1
+    
+    
