@@ -64,7 +64,6 @@ public class Solution {
                 System.out.println(parent[i] +" "+ i+" "+weight[i]);
             }
         }
-
     }
 
     public static void main(String[] args) {
